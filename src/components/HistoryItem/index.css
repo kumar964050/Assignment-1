@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  font-family: roboto;
+}
+body {
+  margin: 0px;
+}
+@media (max-width: 576px) {
+  .history-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .img-title-url-container {
+    width: 90%;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0px;
+  }
+  .time-el {
+    font-size: 10px;
+    margin: 0px;
+  }
+  .img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+  }
+  .img-icon {
+    width: 30px;
+    height: 30px;
+    /* margin-right: 10px; */
+  }
+  .name-url-container {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    padding: 10px;
+  }
+  .name-el {
+    margin: 0px;
+    font-size: 10px;
+  }
+  .url-el {
+    margin: 0px;
+    font-size: 10px;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .button-el {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 577px) {
+  .history-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+  .time-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img-title-url-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+  }
+  .time-el {
+    font-size: 12px;
+    margin: 10px;
+  }
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+  }
+  .img-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 3px;
+  }
+  .name-url-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 75%;
+    padding: 10px;
+  }
+  .name-el {
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: 900;
+  }
+  .url-el {
+    font-size: 12px;
+    padding-top: 5px;
+    font-weight: 400;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .button-el {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
